@@ -71,7 +71,7 @@
 &kp TILDE   &trans         &mkp LCLK  &mkp MCLK        &mkp RCLK         &trans               &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp MINUS  &kp EQUAL
 &trans      &trans         &trans     &trans           &trans            &trans               &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &trans
 &trans      &trans         &trans     &trans           &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))    &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans     &trans
-&kp C_MUTE  &kp LG(LS(S))  &kp LG(D)  &kp LC(LA(ESC))  &trans            &tog 0               &mkp LCLK        &trans     &trans    &trans    &tog 2     &tog 4
+&kp C_MUTE  &kp LG(LS(S))  &kp LG(D)  &kp LC(LA(ESC))  &trans            &tog 0               &mkp LCLK        &trans     &tog 0    &tog 1    &tog 2     &tog 4
             >;
 
             display-name = "layer1";
@@ -85,7 +85,7 @@
 &trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &trans
 &trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans
 &trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET    &trans
-&trans  &trans     &trans     &trans     &mo 1      &trans           &trans  &kp C_AL_CALCULATOR  &trans           &kp KP_N0        &trans           &kp DOT
+&trans  &trans     &trans     &trans     &mo 1      &trans           &trans  &kp C_AL_CALCULATOR  &tog 0           &kp KP_N0        &trans           &kp DOT
             >;
 
             label = "Num";
@@ -111,7 +111,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &mo 1   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mo 1   &trans    &trans  &trans  &tog 0  &trans  &trans  &trans
             >;
 
             label = "HD";
