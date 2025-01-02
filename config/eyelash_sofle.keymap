@@ -68,10 +68,10 @@
         Nav {
             bindings = <
 &kp GRAVE   &kp F1         &kp F2     &kp F3           &kp F4            &kp F5               &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &kp F11
-&kp TILDE   &none          &mkp LCLK  &mkp MCLK        &mkp RCLK         &none                &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp MINUS  &kp EQUAL
-&none       &none          &none      &none            &none             &none                &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none      &none
-&none       &none          &none      &none            &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))    &mmv MOVE_RIGHT  &none      &none     &none     &none      &none      &none
-&kp C_MUTE  &kp LG(LS(S))  &kp LG(D)  &kp LC(LA(ESC))  &none             &tog 0               &mkp LCLK        &none      &none     &none     &tog 2     &tog 4
+&kp TILDE   &trans         &mkp LCLK  &mkp MCLK        &mkp RCLK         &trans               &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp MINUS  &kp EQUAL
+&trans      &trans         &trans     &trans           &trans            &trans               &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &trans
+&trans      &trans         &trans     &trans           &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))    &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans     &trans
+&kp C_MUTE  &kp LG(LS(S))  &kp LG(D)  &kp LC(LA(ESC))  &trans            &tog 0               &mkp LCLK        &trans     &trans    &trans    &tog 2     &tog 4
             >;
 
             display-name = "layer1";
@@ -81,11 +81,11 @@
 
         Num {
             bindings = <
-&none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LS(Z))    &none  &none                &kp KP_NUMLOCK   &kp SLASH        &kp ASTERISK     &kp MINUS  &none
-&none  &none      &none      &none      &none      &none            &none  &none                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &none
-&none  &none      &none      &none      &none      &none            &none  &none                &kp KP_NUMBER_4  &kp KP_NUMBER_6  &none            &none      &none
-&none  &none      &none      &none      &none      &none            &none  &none                &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET    &none
-&none  &none      &none      &none      &mo 1      &none            &none  &kp C_AL_CALCULATOR  &none            &kp KP_N0        &none            &kp DOT
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LS(Z))    &trans  &trans               &kp KP_NUMLOCK   &kp SLASH        &kp ASTERISK     &kp MINUS  &trans
+&trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &trans
+&trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans           &trans  &trans               &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET    &trans
+&trans  &trans     &trans     &trans     &mo 1      &trans           &trans  &kp C_AL_CALCULATOR  &trans           &kp KP_N0        &trans           &kp DOT
             >;
 
             label = "Num";
@@ -94,11 +94,11 @@
 
         Setup {
             bindings = <
-&none        &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &none  &none  &none        &soft_off
-&none        &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none                &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none  &none  &none        &none
-&none        &out OUT_USB  &out OUT_BLE    &none         &none         &ext_power EP_ON     &rgb_ug RGB_SPD  &none            &none            &none  &none  &none        &none
-&bootloader  &none         &none           &bootloader   &none         &ext_power EP_OFF    &rgb_ug RGB_SPI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none  &none  &bootloader  &none
-&none        &sys_reset    &none           &none         &mo 1         &soft_off            &rgb_ug RGB_TOG  &rgb_ug RGB_TOG  &none            &none  &none  &none
+&soft_off    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &trans  &trans  &trans  &soft_off
+&trans       &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans               &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &trans  &trans  &trans  &trans
+&trans       &out OUT_USB  &out OUT_BLE    &trans        &trans        &ext_power EP_ON     &rgb_ug RGB_SPD  &trans           &trans           &trans  &trans  &trans  &trans
+&bootloader  &trans        &trans          &bootloader   &trans        &ext_power EP_OFF    &rgb_ug RGB_SPI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &trans  &bootloader
+&trans       &sys_reset    &trans          &trans        &mo 1         &trans               &rgb_ug RGB_TOG  &rgb_ug RGB_TOG  &trans           &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
