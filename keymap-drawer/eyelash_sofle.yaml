@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: Nav, h: toggle}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -57,11 +57,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - Nav
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: HOME, h: END}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - Nav
   - {t: PgUp, h: Num}
   - {t: PgDn, h: Setup}
   L1:
@@ -130,13 +130,13 @@ layers:
   - {t: PgUp, h: Num}
   - {t: PgDn, h: Setup}
   Num:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+ S
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
   - Ctl+Sft+ Z
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - KP NUMLOCK
   - {t: /, s: '?'}
   - '*'
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 7
   - KP 8
@@ -162,7 +162,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AC BACK
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 4
   - KP 5
@@ -175,14 +175,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AC FORWARD
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 1
   - KP 2
   - KP 3
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
+  - {t: Ctl+ W, h: Ctl+ T}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - AL CALCULATOR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Base, h: toggle}
   - KP 0
   - {type: held}
   - {t: ., s: '>'}
@@ -207,7 +207,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -234,8 +234,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+ $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Sft+ $$mdi:arrow-left-bold$$
@@ -246,17 +246,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:volume-off$$
   - Gui+Sft+ S
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - Ctl+Alt+ $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: Nav, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - {t: Base, h: toggle}
   - {t: L1, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: Num, h: toggle, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Setup:
