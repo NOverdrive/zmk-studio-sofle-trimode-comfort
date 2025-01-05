@@ -6,15 +6,15 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#project
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    - name: gpeye                         #new entry
+      url-base: https://github.com/GPeye  #new entry
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor 
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+    - name: hammerbeam-slideshow          #new entry
+      remote: gpeye                       #new entry
+      revision: main                      #new entry
     - name: zmk
       remote: zmkfirmware
       revision: main
