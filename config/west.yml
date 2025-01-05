@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -15,6 +17,9 @@ manifest:
     - name: hammerbeam-slideshow
       remote: gpeye
       revision: main 
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
