@@ -39,7 +39,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - '&TapCaps'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
