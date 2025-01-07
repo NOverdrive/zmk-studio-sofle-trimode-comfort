@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', h: '=', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - S
@@ -51,7 +51,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '[', s: '{'}
+  - {t: ;, s: ':'}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
