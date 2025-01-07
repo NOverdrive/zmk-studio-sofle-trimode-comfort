@@ -39,7 +39,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - '&TapCaps'
   - Z
   - X
   - C
@@ -50,8 +50,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: ;, s: ':'}
+  - {t: /, h: \, s: '?'}
+  - {t: '[', h: ']', s: '{'}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -85,11 +85,11 @@ layers:
   - P
   - V
   - $$mdi:arrow-down-bold$$
-  - {t: '1', s: '!'}
+  - {t: /, h: \, s: '?'}
   - {t: ., s: '>'}
   - Q
-  - {t: '7', s: '&'}
-  - {t: '6', s: ^}
+  - {t: ;, s: ':'}
+  - .
   - Z
   - {t: '$$mdi:backspace$$', type: backspace}
   - R
@@ -98,7 +98,7 @@ layers:
   - T
   - B
   - $$mdi:arrow-left-bold$$
-  - {t: '2', s: '@'}
+  - {t: ',', s: <}
   - A
   - E
   - I
@@ -111,12 +111,12 @@ layers:
   - D
   - G
   - $$mdi:arrow-right-bold$$
-  - {t: '3', s: '#'}
+  - {t: '-', h: '=', s: _}
   - U
   - O
   - Y
   - K
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '[', h: ']', s: '{'}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
