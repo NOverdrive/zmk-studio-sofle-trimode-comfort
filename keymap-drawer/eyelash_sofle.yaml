@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - S
@@ -85,11 +85,11 @@ layers:
   - P
   - V
   - $$mdi:arrow-down-bold$$
-  - {t: /, h: \, s: '?'}
-  - .
+  - {t: '1', s: '!'}
+  - {t: ., s: '>'}
   - Q
-  - {t: ;, s: ':'}
-  - .
+  - {t: '7', s: '&'}
+  - {t: '6', s: ^}
   - Z
   - {t: '$$mdi:backspace$$', type: backspace}
   - R
@@ -98,7 +98,7 @@ layers:
   - T
   - B
   - $$mdi:arrow-left-bold$$
-  - {t: ',', s: <}
+  - {t: '2', s: '@'}
   - A
   - E
   - I
@@ -111,7 +111,7 @@ layers:
   - D
   - G
   - $$mdi:arrow-right-bold$$
-  - {t: '-', h: '=', s: _}
+  - {t: '3', s: '#'}
   - U
   - O
   - Y
