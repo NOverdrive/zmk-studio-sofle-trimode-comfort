@@ -5,19 +5,6 @@
 
 if BOARD_EYELASH_SOFLE_DONGLE
 
-config ZMK_KEYBOARD_NAME
-    default "Eyelash Sofle"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif # BOARD_EYELASH_SOFLE_DONGLE
-
-
-if BOARD_EYELASH_SOFLE_DONGLE || BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
-
-config BOARD
-    default "eyelash_sofle"
 
 # To let the nRF5 bootloader load an application, the application
 # must be linked after Nordic MBR, that is factory-programmed on the board.
@@ -33,6 +20,27 @@ config BOARD
 config FLASH_LOAD_OFFSET
 	default 0x1000
 	depends on BOARD_HAS_NRF5_BOOTLOADER && !USE_DT_CODE_PARTITION
+
+if USB_DEVICE_STACK
+
+# Enable UART driver, needed for CDC ACM
+config SERIAL
+	default y
+
+config ZMK_KEYBOARD_NAME
+    default "Eyelash Sofle"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # BOARD_EYELASH_SOFLE_DONGLE
+
+
+if BOARD_EYELASH_SOFLE_DONGLE || BOARD_EYELASH_SOFLE_LEFT || BOARD_EYELASH_SOFLE_RIGHT
+
+config BOARD
+    default "eyelash_sofle"
+
 
 config BOARD_ENABLE_DCDC
     bool "Enable DCDC mode"
