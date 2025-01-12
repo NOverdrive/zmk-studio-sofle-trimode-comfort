@@ -5,6 +5,18 @@
 
 if BOARD_EYELASH_SOFLE_DONGLE
 
+config BOARD_ENABLE_DCDC
+	bool "DCDC mode"
+	select SOC_DCDC_NRF52X
+	default y
+
+config BOARD_HAS_NRF5_BOOTLOADER
+	bool "Board has nRF5 bootloader"
+	default y
+	help
+	  If selected, applications are linked so that they can be loaded by Nordic
+	  nRF5 bootloader.
+
 # To let the nRF5 bootloader load an application, the application
 # must be linked after Nordic MBR, that is factory-programmed on the board.
 
