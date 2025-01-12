@@ -19,10 +19,7 @@ include:
   #   shield: sweep_dongle
   # - board: nrf52840_mdk_dongle
   #   shield: dongle_reset
-  #- board: nrf52840_mdk_dongle
+  #- board: nrf52840_mdk_usb_dongle
   #- shield: settings_reset
-  - board: nrf52840_mdk_dongle
-  - shield: nice_view
-  - board: nice_view
-  - shield: nrf52840_mdk_dongle
-  
+  #- board: nrf52840_mdk_usb_dongle
+  #- shield: nice_view
