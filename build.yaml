@@ -15,3 +15,11 @@ include:
     artifact-name: eyelash_sofle_studio_dongle
   - board: eyelash_sofle_dongle
     shield: settings_reset
+  # - board: nrf52840_mdk_dongle
+  #   shield: sweep_dongle
+  # - board: nrf52840_mdk_dongle
+  #   shield: dongle_reset
+  - board: nrf52840_mdk_dongle
+  - shield: settings_reset
+  - board: nrf52840_mdk_dongle
+  - shield: eyelash_sofle_dongle
