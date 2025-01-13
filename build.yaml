@@ -1,7 +1,7 @@
 ---
 include:
   - board: nrf52840_mdk_usb_dongle
-    shield: eyelash_sofle_dongle
+    shield: nice_view
   - board: eyelash_sofle_left
     shield: nice_view_gem
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
@@ -9,12 +9,12 @@ include:
     shield: nice_view_custom
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nrf52840_mdk_usb_dongle
-    shield: eyelash_sofle_dongle
+    shield: nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: eyelash_sofle_studio_dongle
   - board: nrf52840_mdk_usb_dongle
-    shield: eyelash_sofle_dongle
+    shield: settings_reset
   # - board: nrf52840_mdk_dongle
   #   shield: sweep_dongle
   # - board: nrf52840_mdk_dongle
