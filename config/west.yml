@@ -5,26 +5,16 @@ manifest:
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
-      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#project
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
-      revision: refactor 
-    - name: hammerbeam-slideshow          #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
-    - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: main #new entry
-    - name: zmk-config
-      remote: mctechnology17
-      revision: main
+      revision: dongle
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
