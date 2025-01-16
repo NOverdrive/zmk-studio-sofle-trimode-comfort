@@ -18,7 +18,7 @@ include:
     artifact-name: nice_sofle_left_peripheral
     
   # Xiao_Dongle
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble_sense
     shield: sofle_dongle_xiao
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle_X\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: xiao_sofle_dongle_xiao
