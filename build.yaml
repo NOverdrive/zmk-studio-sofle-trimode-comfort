@@ -23,7 +23,7 @@ include:
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle_X\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: xiao_sofle_dongle_xiao
     snippet: studio-rpc-usb-uart
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble_sense
     shield: settings_reset
 
   - board: eyelash_sofle_left
