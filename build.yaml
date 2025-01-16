@@ -18,12 +18,12 @@ include:
     artifact-name: nice_sofle_left_peripheral
     
   # Xiao_Dongle
-  - board: xiao_ble_sense
-    shield: sofle_dongle_xiao
+  - board: seeeduino_xiao_ble
+    shield: eyelash_sofle_dongle
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle_X\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: xiao_sofle_dongle_xiao
     snippet: studio-rpc-usb-uart
-  - board: xiao_ble_sense
+  - board: seeeduino_xiao_ble
     shield: settings_reset
 
   - board: eyelash_sofle_left
