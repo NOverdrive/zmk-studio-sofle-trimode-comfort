@@ -16,7 +16,6 @@ include:
 
  # Xiao_Dongle
   - board: seeeduino_xiao_ble
-    shield: nice_view
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle_X\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000 -DKEYMAP_FILE=../../config/eyelash_sofle.keymap -DEXTRA_CONF_FILE=../../config/eyelash_sofle.conf
     artifact-name: xiao_sofle_dongle_xiao
     snippet: studio-rpc-usb-uart
