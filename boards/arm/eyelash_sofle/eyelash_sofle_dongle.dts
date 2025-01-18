@@ -6,7 +6,7 @@
 */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "eyelash_sofle-layouts.dtsi"
+#include "eyelash_sofle-layouts.dtsi"
 
 &eyelash_sofle_layout {
     transform = <&default_transform>;
@@ -16,7 +16,7 @@
 /{
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = eyelash_sofle_layout;
+        zmk,physical-layout = &eyelash_sofle_layout;
     };
 
 default_transform: keymap_transform_0 {
