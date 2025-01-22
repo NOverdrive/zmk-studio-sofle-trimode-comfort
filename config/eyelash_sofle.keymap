@@ -68,13 +68,13 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Base";
             label = "Base";
         };
 
         Alt {
             label = "Alt";
-            display-name = "LAYER0";
+            display-name = "Alt";
             bindings = <
 &kp ESCAPE               &kp N1        &kp N2        &kp N3  &kp N4            &kp N5            &kp UP_ARROW     &kp N6              &kp N7     &kp N8  &kp N9         &kp N0           &tog 3
 &kp TAB                  &kp W         &kp F         &kp M   &kp P             &kp V             &kp DOWN_ARROW   &mt BACKSLASH FSLH  &kp DOT    &kp Q   &kp SEMI       &kp APOS         &kp Z
@@ -96,12 +96,13 @@
             >;
 
             label = "Num";
+            display-name = "Num";
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREVIOUS>;
         };
 
         Nav {
             label = "Nav";
-            display-name = "Mouse";
+            display-name = "Nav";
             bindings = <
 &kp GRAVE                &kp F1            &kp F2        &kp F3     &kp F4     &kp F5           &mmv MOVE_UP     &kp F6         &kp F7     &kp F8     &kp F9     &kp F10            &trans
 &kp TILDE                &kp LG(LS(LEFT))  &kp END       &kp UP     &kp HOME   &kp PAGE_UP      &mmv MOVE_DOWN   &kp PG_UP      &kp HOME   &kp UP     &kp END    &kp LG(LS(RIGHT))  &trans
@@ -124,6 +125,7 @@
 
             sensor-bindings = <&scroll_encoder>;
             label = "Setup";
+            display-name = "Setup";
         };
 
         extra1 { status = "reserved"; };
