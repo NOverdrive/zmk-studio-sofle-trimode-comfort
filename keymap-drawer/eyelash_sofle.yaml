@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: Mouse, h: toggle}
+  - {t: Nav, h: toggle}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -55,16 +55,16 @@ layers:
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Mouse
+  - Nav
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: HOME, h: END}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Mouse
+  - Nav
   - {t: PgUp, h: Num}
   - {t: PgDn, h: Setup}
-  LAYER0:
+  Alt:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -77,7 +77,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: Mouse, h: toggle}
+  - {t: Nav, h: toggle}
   - $$mdi:keyboard-tab$$
   - W
   - F
@@ -120,13 +120,13 @@ layers:
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Mouse
+  - Nav
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: HOME, h: END}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Mouse
+  - Nav
   - {t: PgUp, h: Num}
   - {t: PgDn, h: Setup}
   Num:
@@ -194,7 +194,7 @@ layers:
   - KP 0
   - {type: held}
   - {t: ., s: '>'}
-  Mouse:
+  Nav:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -256,7 +256,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: LAYER0, h: toggle, type: held alternate}
+  - {t: Alt, h: toggle, type: held alternate}
   - {t: Num, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   Setup:
