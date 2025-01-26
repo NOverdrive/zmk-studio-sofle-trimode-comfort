@@ -3,7 +3,7 @@ include:
   #- board: eyelash_sofle_dongle
    # shield: nice_view
   - board: eyelash_sofle_left
-    shield: nice_view
+    shield: nice_view_gem
     snippet: studio-rpc-usb-uart
     #change the cmake to CENTRAL=Y when using without dongle
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
