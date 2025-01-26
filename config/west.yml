@@ -9,6 +9,9 @@ manifest:
     # nice_view_gem
     - name: m165437
       url-base: https://github.com/M165437
+    #my_projects
+    - name: noverdrive
+      url-base: https://github.com/noverdrive
     # dongle_display
     #- name: englmaxi
       #url-base: https://github.com/englmaxi
@@ -16,8 +19,8 @@ manifest:
     #- name: mctechnology17
       #url-base: https://github.com/mctechnology17
     #nice view elemental
-    - name: kevinpastor
-      url-base: https://github.com/kevinpastor
+    #- name: kevinpastor
+      #url-base: https://github.com/kevinpastor
     - name: gpeye
       url-base: https://github.com/GPeye
   projects:
@@ -30,9 +33,15 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
-    - name: nice-view-elemental
-      remote: kevinpastor
-      revision: main
+    - name: mirror-gem
+      remote: noverdrive
+      revision: overdrive
+    - name: hammerbeam
+      remote: noverdrive
+      revision: overdrive-ver
+    #- name: nice-view-elemental
+      #remote: kevinpastor
+      #revision: main
     # dongle_display
     #- name: zmk-dongle-display
       #remote: englmaxi
