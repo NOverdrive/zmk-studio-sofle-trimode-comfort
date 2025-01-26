@@ -7,8 +7,8 @@ manifest:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     # nice_view_gem
-    - name: m165437
-      url-base: https://github.com/M165437
+    #- name: m165437
+      #url-base: https://github.com/M165437
     #my_projects
     - name: noverdrive
       url-base: https://github.com/NOverdrive
@@ -30,9 +30,9 @@ manifest:
     - name: hammerbeam-slideshow          #new entry
       remote: gpeye                       #new entry
       revision: main                      #new entry
-    - name: nice-view-gem #new entry
-      remote: m165437 #new entry
-      revision: main #new entry
+    #- name: nice-view-gem #new entry
+      #remote: m165437 #new entry
+      #revision: main #new entry
     - name: Mirror-Gem
       remote: noverdrive
       revision: Overdrive
