@@ -33,9 +33,9 @@ manifest:
     #- name: nice-view-gem #new entry
       #remote: m165437 #new entry
       #revision: main #new entry
-    - name: Mirror-Gem
-      remote: noverdrive
-      revision: Overdrive
+    #- name: Mirror-Gem
+      #remote: noverdrive
+      #revision: Overdrive
     - name: Hammerbeam
       remote: noverdrive
       revision: Overdrive-ver
