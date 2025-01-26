@@ -21,15 +21,15 @@ manifest:
     #nice view elemental
     #- name: kevinpastor
       #url-base: https://github.com/kevinpastor
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    #- name: gpeye
+      #url-base: https://github.com/GPeye
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: dongle
-    - name: hammerbeam-slideshow          #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
+    #- name: hammerbeam-slideshow          #new entry
+      #remote: gpeye                       #new entry
+      #revision: main                      #new entry
     #- name: nice-view-gem #new entry
       #remote: m165437 #new entry
       #revision: main #new entry
