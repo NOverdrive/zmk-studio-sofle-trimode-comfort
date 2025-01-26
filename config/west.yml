@@ -13,8 +13,11 @@ manifest:
     #- name: englmaxi
       #url-base: https://github.com/englmaxi
     # nice_oled - dongle_display!view - oled Adapter
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    #- name: mctechnology17
+      #url-base: https://github.com/mctechnology17
+    #nice view elemental
+    - name: kevinpastor
+      url-base: https://github.com/kevinpastor
     - name: gpeye
       url-base: https://github.com/GPeye
   projects:
@@ -27,14 +30,17 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
+    - name: nice-view-elemental
+      remote: kevinpastor
+      revision: main
     # dongle_display
     #- name: zmk-dongle-display
       #remote: englmaxi
       #revision: main
     # nice_oled
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+    #- name: zmk-nice-oled
+      #remote: mctechnology17
+      #revision: main
     # dongle_display!view
     #- name: zmk-dongle-display-view
       #remote: mctechnology17
