@@ -11,7 +11,7 @@ manifest:
       url-base: https://github.com/M165437
     #my_projects
     - name: noverdrive
-      url-base: https://github.com/noverdrive
+      url-base: https://github.com/NOverdrive
     # dongle_display
     #- name: englmaxi
       #url-base: https://github.com/englmaxi
@@ -33,12 +33,12 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
-    - name: mirror-gem
+    - name: Mirror-Gem
       remote: noverdrive
-      revision: overdrive
-    - name: hammerbeam
+      revision: Overdrive
+    - name: Hammerbeam
       remote: noverdrive
-      revision: overdrive-ver
+      revision: Overdrive-ver
     #- name: nice-view-elemental
       #remote: kevinpastor
       #revision: main
